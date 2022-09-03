@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cloudsave"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:8:5-76
+13-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:9:5-68
+14-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:9:22-65
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:10:5-12:40
+15-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:11:9-65
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:13:5-75
+16-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:13:22-72
+17
+18    <application
+18-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:15:5-51:19
+19        android:allowBackup="true"
+19-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:16:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] C:\Users\86198\.gradle\caches\transforms-3\a1605265a276ccaf05dba118648041ac\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:17:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:18:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:19:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:20:9-35
+25        android:theme="@style/Theme.CloudSave" >
+25-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:21:9-47
+26        <activity
+26-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:22:9-24:40
+27            android:name="com.example.cloudsave.RePassword"
+27-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:23:13-39
+28            android:exported="false" />
+28-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:24:13-37
+29        <activity
+29-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:25:9-27:40
+30            android:name="com.example.cloudsave.NumberAdd"
+30-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:26:13-38
+31            android:exported="false" />
+31-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:27:13-37
+32        <activity
+32-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:28:9-30:40
+33            android:name="com.example.cloudsave.Receive"
+33-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:29:13-36
+34            android:exported="false" />
+34-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:30:13-37
+35        <activity
+35-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:31:9-33:40
+36            android:name="com.example.cloudsave.BottomNavigationActivity"
+36-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:32:13-53
+37            android:exported="false" />
+37-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:33:13-37
+38
+39        <provider
+39-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:35:9-37:79
+40            android:name="cn.bmob.v3.util.BmobContentProvider"
+40-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:36:13-63
+41            android:authorities="com.example.cloudsave.BmobContentProvider" />
+41-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:37:13-76
+42
+43        <activity
+43-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:39:9-41:40
+44            android:name="com.example.cloudsave.LoginActivity"
+44-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:40:13-42
+45            android:exported="false" />
+45-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:41:13-37
+46        <activity
+46-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:42:9-50:20
+47            android:name="com.example.cloudsave.splash"
+47-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:43:13-35
+48            android:exported="true" >
+48-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:44:13-36
+49            <intent-filter>
+49-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:45:13-49:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:46:17-69
+50-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:46:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:48:17-77
+52-->C:\Users\86198\AndroidStudioProjects\CloudSaveNew\app\src\main\AndroidManifest.xml:48:27-74
+53            </intent-filter>
+54        </activity>
+55    </application>
+56
+57</manifest>
